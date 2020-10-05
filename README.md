@@ -14,4 +14,4 @@ The apk will be in the build/ directory
 
 references:  
 https://www.hanshq.net/command-line-android.html  
-https://github.com/hunter-packages/android-apk
+https://github.com/hunter-packages/android-apk  
