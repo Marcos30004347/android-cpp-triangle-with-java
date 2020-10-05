@@ -1,8 +1,8 @@
 Example of android app written in c++ that uses just the SDK and the NDK to build the final APK.
 
-dependencies:
-    - Android SDK
-    - Android NDK
+dependencies:  
+    - Android SDK  
+    - Android NDK  
 
 "build.sh" requires you to set ANDROID_SDK env variable to the path that you have installed the Android SDK. "cmake/android.cmake" also needs ANDROID_NDK env variable to be the place that you have installed the Android NDK.
 
