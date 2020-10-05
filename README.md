@@ -6,14 +6,12 @@ dependencies:
 
 "build.sh" requires you to set ANDROID_SDK env variable to the path that you have installed the Android SDK. "cmake/android.cmake" also needs ANDROID_NDK env variable to be the place that you have installed the Android NDK.
 
-To build the apk run:
-$ ./keystool.sh
-
+To build the apk run:  
+$ ./keystool.sh  
 $ ./build.sh
 
 The apk will be in the build/ directory
 
-references:
-https://www.hanshq.net/command-line-android.html
-
+references:  
+https://www.hanshq.net/command-line-android.html  
 https://github.com/hunter-packages/android-apk
