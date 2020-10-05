@@ -1,5 +1,4 @@
-Example of an android app that uses cpp using just the SDK and the NDK to build the final APK.
-
+Example of android app written in c++ that uses just the SDK and the NDK to build the final APK.
 
 dependencies:
     - Android SDK
