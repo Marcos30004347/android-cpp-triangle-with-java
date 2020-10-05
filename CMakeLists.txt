@@ -40,4 +40,10 @@ add_library(${TARGET_NAME} SHARED source/main.cpp)
 target_include_directories(${TARGET_NAME} PRIVATE $ENV{ANDROID_NDK}/sources/android/native_app_glue)
 
 # add lib dependencies
-target_link_libraries(${TARGET_NAME} android native_app_glue)
+target_link_libraries(${TARGET_NAME}
+android
+native_app_glue
+EGL
+GLESv2
+log
+)
