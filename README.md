@@ -4,7 +4,6 @@ dependencies:
     - Android SDK
     - Android NDK
 
-
 "build.sh" requires you to set ANDROID_SDK env variable to the path that you have installed the Android SDK. "cmake/android.cmake" also needs ANDROID_NDK env variable to be the place that you have installed the Android NDK.
 
 To build the apk run:

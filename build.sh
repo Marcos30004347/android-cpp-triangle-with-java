@@ -39,6 +39,7 @@ printf "${GREEN}Building native lib!\n${NC}"
 # cmake will create:
 #     - build/java/LoadLibraries.java
 #     - build/manifest/AndroidManifest.xml
+#     - build/java/LoadLibraries.java
 # and compile our cpp code.
 
 cd build/lib
